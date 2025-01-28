@@ -14,6 +14,7 @@ dependencies:
   get: ^4.6.6
   permission_handler: ^10.2.0 
   shared_preferences: ^2.4.0
+  loading_animation_widget:
 
   cupertino_icons: ^1.0.8
 
@@ -26,7 +27,7 @@ dev_dependencies:
 flutter:
   uses-material-design: true
   assets:
-    - assets/
+    - assets/logo/logo.png
 flutter_icons:
   android: true 
   ios: false    

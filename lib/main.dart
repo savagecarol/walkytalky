@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
-import 'package:walkytalky/presentation/permissionPage.dart';
+import 'package:walkytalky/global/AppColors.dart';
+import 'package:walkytalky/presentation/CustomPermissonScreen.dart';
 
 void main() {
   WidgetsFlutterBinding.ensureInitialized();
@@ -18,10 +19,8 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       title: 'Flutter Demo',
-      theme: ThemeData(
-        useMaterial3: true,
-      ),
-      home: SafeArea(child: PermissionPage()),
+      debugShowCheckedModeBanner: false, 
+      home: PermissionPage(),
     );
   }
 }
